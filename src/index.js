@@ -100,7 +100,7 @@ function Pizza(props){
         <div>
             <h3>{props.name}</h3>
             <p>{props.ingredient}</p>
-            <span>{props.soldOut ? "Sold Out": props.price} </span>
+            <span>{props.soldOut ? "Sold Out": `${props.price}$`} </span>
         </div>
         </li>
     );
